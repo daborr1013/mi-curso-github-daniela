@@ -21,7 +21,7 @@ Formation: auxiliar avoir o être + participe passé
 * **Cuando se trata de una acción puntual en el pasado:** *J’ai voyagé hier*
 * **Cuando se trata de una secuencia de acciones:** *J’ai pris l’avion et j’ai réservé un hôtel*
 
-### Léxique: le transport et le hébergement
+## 1.2. Léxique: le transport et le hébergement
 
 **Transport:**
 - avion 
@@ -47,4 +47,5 @@ Formation: auxiliar avoir o être + participe passé
 **Ejemplo comunicativo**
 
 > – Bonjour, j’ai une réservation au nom de Dupont.
+
 > – Oui, voici votre chambre.
