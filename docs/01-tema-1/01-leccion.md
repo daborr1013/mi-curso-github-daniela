@@ -4,7 +4,7 @@
 
 ### Définition
 
-Le passé composé exprime qu’une **action dans le passé est terminée.** Il souligne ainsi principalement le **résultat** ou la **conséquence de l’action.** Dans la langue parlée, le passé composé remplace la plupart du temps le passé simple.
+Le passé composé exprime qu’une **action dans le passé est terminée.** Il souligne ainsi principalement le **résultat** ou la **conséquence de l’action.** Dans la langue parlée, le passé composé remplace la plupart du temps **le passé simple.**
 
 ```
 Formation: auxiliaire avoir o être + participe passé
