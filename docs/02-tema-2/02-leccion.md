@@ -19,6 +19,9 @@ Formation: radical de nous + -ais, -ais, -ait…
 
 ### Contraste avec le passé composé
 
+* **Acción puntual:** *Je suis allé au travail*
+* **Contexto:** *Il faisait froid quand je suis sorti*
+
 ## 2.2. Léxique: le transport et le hébergement
 
 **Transport:**
@@ -47,3 +50,5 @@ Formation: radical de nous + -ais, -ais, -ait…
 > – Bonjour, j’ai une réservation au nom de Dupont.
 
 > – Oui, voici votre chambre.
+
+* [Unité 1](./01-tema-1/01-leccion.md)
