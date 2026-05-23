@@ -50,5 +50,3 @@ Formation: radical de nous + -ais, -ais, -ait…
 > – Bonjour, j’ai une réservation au nom de Dupont.
 
 > – Oui, voici votre chambre.
-
-* [Unité 1](./01-tema-1/01-leccion.md)
