@@ -11,6 +11,8 @@
 
 ## 3.1. Fonctions communicatives : demandes et plaintes
 
+![Expresiones de emociones humanas](img/expresiones.jpg)
+
 ### Demander poliment
 
 Pour formuler des demandes de manière **polie,** on utilise des formules telles que :
@@ -77,6 +79,8 @@ Los pronombres se colocan antes del verbo:
 ***
 
 ## 3.3. Lexique utile
+
+![Pieza de puzzle encajando](img/puzzle.jpg)
 
 **Vocabulaire lié aux situations problématiques et à leur résolution :**
 

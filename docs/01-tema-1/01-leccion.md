@@ -11,7 +11,7 @@
 
 ## 1.1. Grammaire : le passé composé
 
-![Máquina de escribir](img/passe-compose.jpg)
+![Máquina de escribir-negra y gris sobre la mesa](img/passe-compose.jpg)
 
 ### Définition
 
@@ -36,7 +36,7 @@ Formation: auxiliaire avoir o être + participe passé
 
 ## 1.2. Lexique : le transport et le hébergement
 
-![Vehículo y edificios](img/transport-hotels.jpg)
+
 
 **Transport :**
 
@@ -47,6 +47,8 @@ Formation: auxiliaire avoir o être + participe passé
 - gare 
 - aéroport
 
+![Una calle de Sri Lanka con edificios antiguos y tráfico](img/transport-hotels.jpg)
+
 **Hébergement :**
 
 - hôtel 
@@ -54,6 +56,8 @@ Formation: auxiliaire avoir o être + participe passé
 - réservation 
 - chambre 
 - réception
+
+![Persona a punto de tocar la tableta android negra](img/reception.jpg)
 
 **Verbes :**
 

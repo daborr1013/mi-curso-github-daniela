@@ -11,6 +11,8 @@
 
 ## 2.1. Grammaire : l'imparfait vs le passé composé
 
+![Reloj de arena sobre una mesa de madera](img/reloj-arena.jpg)
+
 ### Définition
 
 L’imparfait exprime et décrit des **faits** et **actions** dans le passé en soulignant **le déroulement** ou **la répétition** de ceux-ci. C’est le temps du récit, en premier lieu dans la **langue écrite.**
@@ -34,6 +36,8 @@ Formation: radical de nous + -ais, -ais, -ait…
 ***
 
 ## 2.2. Lexique : la routine
+
+![Diario abierto con escrituras y utensilios](img/rutina.jpg)
 
 **Actions quotidiennes (verbes) :**
 

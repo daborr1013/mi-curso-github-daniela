@@ -25,9 +25,13 @@ En France, dire bonjour avant de parler est très important.
 
 - **La vie quotidienne dans la ville :** Rythme de vie *plus rapide*
 
+![Calle de Paris](img/paris.jpg)
+
 - **La vie quotidienne dans la campagne :** Vie *plus calme* dans les zones rurales
 
- ***
+![Iglesia de pueblo con montñas detrás](img/pueblo.jpg)
+
+***
 
 ## 4.2. Registres formels et informels
 
@@ -38,6 +42,8 @@ En France, dire bonjour avant de parler est très important.
 - amis
 - famille
 - personnes de même âge
+
+![Familia cocinando y comiendo](img/familia.jpg)
 
 **Expressions :**
 
@@ -52,6 +58,8 @@ En France, dire bonjour avant de parler est très important.
 - inconnus
 - contextes professionnels
 - personnes que l’on respecte
+
+![Trabajadores en una reunión](img/reunion.jpg)
 
 **Expressions :**
 
