@@ -71,3 +71,7 @@ Formation: auxiliaire avoir o être + participe passé
 > – Bonjour, j’ai une réservation au nom de Dupont.
 
 > – Oui, voici votre chambre.
+
+## Résumé de l'Unité 1
+
+Accéder au résume https://cloud.scorm.com/sandbox/content/courses/SH99KV0M4D/scorm-frances-01066a824a-9c76-480c-91bc-94473639f27a/0/scorm-frances-01/index.html
