@@ -6,7 +6,7 @@
   * [Unité 1. Arriver en France](01-tema-1/01-leccion.md)
 *  **Unité 2. La vie quotidienne**
   * [Unité 2. La vie quotidienne](02-tema-2/02-leccion.md)
-*  **Unité 2. La vie quotidienne**
-  * [Unité 2. La vie quotidienne](03-tema-3/03-leccion.md)
-*  **Unité 2. La vie quotidienne**
-  * [Unité 2. La vie quotidienne](04-tema-4/04-leccion.md)
+*  **Unité 3. Interagir et résoudre des problèmes**
+  * [Unité 3. Interagir et résoudre des problèmes](03-tema-3/03-leccion.md)
+*  **Unité 4.  Culture et communication**
+  * [Unité 4.  Culture et communication](04-tema-4/04-leccion.md)
