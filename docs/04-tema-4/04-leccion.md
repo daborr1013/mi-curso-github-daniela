@@ -23,8 +23,9 @@ En France, dire bonjour avant de parler est très important.
 
 ### Vie quotidienne : la ville vs la campagne
 
- **La vie quotidienne dans la ville :** Rythme de vie *plus rapide*
- **La vie quotidienne dans la campagne :** Vie *plus calme* dans les zones rurales
+- **La vie quotidienne dans la ville :** Rythme de vie *plus rapide*
+
+- **La vie quotidienne dans la campagne :** Vie *plus calme* dans les zones rurales
 
  ***
 

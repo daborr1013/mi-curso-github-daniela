@@ -11,6 +11,8 @@
 
 ## 1.1. Grammaire : le passé composé
 
+![Máquina de escribir](img/passe-compose.jpg)
+
 ### Définition
 
 Le passé composé exprime qu’une **action dans le passé est terminée.** Il souligne ainsi principalement le **résultat** ou la **conséquence de l’action.** Dans la langue parlée, le passé composé remplace la plupart du temps **le passé simple.**
@@ -33,6 +35,8 @@ Formation: auxiliaire avoir o être + participe passé
 ***
 
 ## 1.2. Lexique : le transport et le hébergement
+
+![Vehículo y edificios](img/transport-hotels.jpg)
 
 **Transport :**
 
