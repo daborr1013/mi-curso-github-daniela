@@ -1,5 +1,5 @@
 ## Présentation interactive
 
 <iframe 
-  src="reveal/index.html" 
+  src="00-intro.html"
   width="100
