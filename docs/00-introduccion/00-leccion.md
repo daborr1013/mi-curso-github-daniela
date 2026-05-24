@@ -1,5 +1,10 @@
-## Présentation interactive
+## 🎥 Présentation du cours
 
-👉 **[Ouvrir la présentation interactive](00-intro.html)**
+<iframe 
+  src="../reveal/00-intro.html" 
+  width="100%" 
+  height="500px">
+</iframe>
 
-Cliquez sur le lien ci-dessus pour accéder à la présentation complète !
+➡️ Ouvrir en plein écran :
+../reveal/index.html
