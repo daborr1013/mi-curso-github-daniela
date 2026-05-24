@@ -7,5 +7,5 @@ Ce format permet :
 - une consultation hors ligne  
 - une organisation structurée du contenu  
 
-➡️ [Télécharger le livre en EPUB](./recursos/curso-frances-a2.epub)
-➡️ [Télécharger le livre en PDF](./recursos/curso-frances-a2.pdf)
+➡️ [Télécharger le livre en EPUB](./05-epub-curso/curso-frances-a2.epub)
+➡️ [Télécharger le livre en PDF](./05-epub-curso/curso-frances-a2.pdf)
