@@ -14,3 +14,5 @@
 *  **Unité 4.  Culture et communication**
   * [Unité 4.  Culture et communication](04-tema-4/04-leccion.md)
   * [Résumé Unité 4](04-tema-4/04-resumen.html)
+* **Ressources**
+  * [Ressources](05-epub-curso/05-epub.md)

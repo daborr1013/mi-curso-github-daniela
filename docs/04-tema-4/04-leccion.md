@@ -29,7 +29,7 @@ En France, dire bonjour avant de parler est très important.
 
 - **La vie quotidienne dans la campagne :** Vie *plus calme* dans les zones rurales
 
-![Iglesia de pueblo con montñas detrás](img/pueblo.jpg)
+![Iglesia de pueblo con montañas detrás](img/pueblo.jpg)
 
 ***
 
