@@ -1,6 +1,15 @@
 # Unité 1. Arriver en France
 
-## 1.1. Gramatique: le passé composé
+## 🎯 Objectifs de l'unité
+
+- Comprendre et utiliser le passé composé
+- Parler d’un voyage au passé
+- Utiliser le vocabulaire du transport et de l’hébergement
+- Interagir dans un hôtel ou à l’aéroport
+
+***
+
+## 1.1. Grammaire : le passé composé
 
 ### Définition
 
@@ -18,12 +27,15 @@ Formation: auxiliaire avoir o être + participe passé
 
 ### Utilisation
 
-* **Cuando se trata de una acción puntual en el pasado:** *J’ai voyagé hier*
-* **Cuando se trata de una secuencia de acciones:** *J’ai pris l’avion et j’ai réservé un hôtel*
+* **Cuando se trata de una acción puntual en el pasado :** *J’ai voyagé hier*
+* **Cuando se trata de una secuencia de acciones :** *J’ai pris l’avion et j’ai réservé un hôtel*
 
-## 1.2. Léxique: le transport et le hébergement
+***
 
-**Transport:**
+## 1.2. Lexique : le transport et le hébergement
+
+**Transport :**
+
 - avion 
 - train 
 - métro 
@@ -31,20 +43,22 @@ Formation: auxiliaire avoir o être + participe passé
 - gare 
 - aéroport
 
-**Hébergement:**
+**Hébergement :**
+
 - hôtel 
 - auberge 
 - réservation 
 - chambre 
 - réception
 
-**Verbes:**
+**Verbes :**
+
 - louer 
 - arriver 
 - partir 
 - séjourner
 
-**Ejemplo comunicativo**
+**Exemple de communication :**
 
 > – Bonjour, j’ai une réservation au nom de Dupont.
 

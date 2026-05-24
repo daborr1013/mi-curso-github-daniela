@@ -1,6 +1,15 @@
 # Unité 2. La vie quotidienne
 
-## 2.1. Gramatique: l'imparfait vs le passé composé
+## 🎯 Objectifs de l'unité
+
+- Comprendre la différence entre imparfait et passé composé
+- Décrire des habitudes dans le passé
+- Raconter des actions et des situations passées
+- Utiliser le vocabulaire de la routine
+
+***
+
+## 2.1. Grammaire : l'imparfait vs le passé composé
 
 ### Définition
 
@@ -10,43 +19,47 @@ L’imparfait exprime et décrit des **faits** et **actions** dans le passé en 
 Formation: radical de nous + -ais, -ais, -ait…
 ```
 
-> **Exemple:** *je travaillais, nous mangions*
+> **Exemple :** *je travaillais, nous mangions*
 
 ### Utilisation
 
-* **Cuando se trata de rutinas:** *Je me levais à 8h*
-* **Cuando se trata de una descripción:** *Il faisait beau*
+* **Cuando se trata de rutinas :** *Je me levais à 8h*
+* **Cuando se trata de una descripción :** *Il faisait beau*
 
 ### Contraste avec le passé composé
 
-* **Acción puntual:** *Je suis allé au travail*
-* **Contexto:** *Il faisait froid quand je suis sorti*
+* **Acción puntual :** *Je suis allé au travail*
+* **Contexto :** *Il faisait froid quand je suis sorti*
 
-## 2.2. Léxique: le transport et le hébergement
+***
 
-**Transport:**
-- avion 
-- train 
-- métro 
-- billet 
-- gare 
-- aéroport
+## 2.2. Lexique : la routine
 
-**Hébergement:**
-- hôtel 
-- auberge 
-- réservation 
-- chambre 
-- réception
+**Actions quotidiennes (verbes) :**
 
-**Verbes:**
-- louer 
-- arriver 
-- partir 
-- séjourner
+- se lever
+- se coucher
+- travailler
+- étudier
+- prendre le petit déjeuner
+- faire les courses
 
-**Ejemplo comunicativo**
+**Moments de la journée :**
 
-> – Bonjour, j’ai une réservation au nom de Dupont.
+- matin
+- après-midi
+- soir
+- nuit
 
-> – Oui, voici votre chambre.
+**Fréquence :**
+
+- toujours
+- souvent
+- parfois
+- rarement
+
+**Exemple de communication :**
+
+> – Qu’est-ce que tu faisais hier soir ?
+
+> –  Je regardais la télévision quand tu as appelé.
