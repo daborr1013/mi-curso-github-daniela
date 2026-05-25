@@ -1,5 +1,5 @@
 <iframe 
-  src="https://cloud.scorm.com/sandbox/content/courses/SH99KV0M4D/scorm-frances-02354d7b21-4074-454f-ac12-8e71317818b3/0/scorm-frances-02/index.html" 
+  src="https://app.cloud.scorm.com/sc/InvitationConfirmEmail?publicInvitationId=5347e23f-49c8-49f1-8a30-6ac33b0ec9f1" 
   width="100%" 
   height="1000px">
 </iframe>
