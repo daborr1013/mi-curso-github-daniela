@@ -7,26 +7,186 @@
   <meta name="description" content="Descripción de tu curso.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   
+  <!-- Docsify Theme with warm, friendly colors -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  
+  <!-- Custom Warm & Friendly Styling -->
+  <style>
+    :root {
+      --primary-color: #D4A574;        /* Warm cream/tan */
+      --accent-color: #C85A54;         /* Warm rust red */
+      --text-color: #2C3E50;           /* Deep charcoal */
+      --bg-color: #FDFAF3;             /* Cream background */
+      --border-color: #E8DCC8;         /* Soft beige border */
+    }
+    
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: 'Segoe UI', 'Roboto', -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+    
+    /* Sidebar styling */
+    .sidebar {
+      background-color: #F5EFE7;
+      border-right: 2px solid var(--border-color);
+    }
+    
+    .sidebar li > a {
+      color: var(--text-color);
+      font-weight: 500;
+    }
+    
+    .sidebar li a:hover,
+    .sidebar li a.active {
+      color: var(--accent-color);
+      border-right: 3px solid var(--accent-color);
+    }
+    
+    /* Main content area */
+    .content {
+      padding: 40px;
+    }
+    
+    /* Headings */
+    h1, h2, h3, h4, h5, h6 {
+      color: var(--accent-color);
+      font-weight: 600;
+      line-height: 1.4;
+    }
+    
+    h1 {
+      font-size: 2.5em;
+      border-bottom: 3px solid var(--primary-color);
+      padding-bottom: 15px;
+      margin-bottom: 30px;
+    }
+    
+    h2 {
+      font-size: 1.8em;
+      margin-top: 35px;
+      margin-bottom: 15px;
+    }
+    
+    /* Links */
+    a {
+      color: var(--accent-color);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: all 0.3s ease;
+    }
+    
+    a:hover {
+      border-bottom: 2px solid var(--accent-color);
+    }
+    
+    /* Code blocks */
+    pre {
+      background-color: #F5EFE7;
+      border-left: 4px solid var(--primary-color);
+    }
+    
+    code {
+      color: var(--accent-color);
+      background-color: rgba(200, 90, 84, 0.08);
+      padding: 2px 6px;
+      border-radius: 3px;
+    }
+    
+    /* Blockquotes */
+    blockquote {
+      border-left: 4px solid var(--primary-color);
+      background-color: rgba(212, 165, 116, 0.08);
+      padding: 15px 20px;
+      color: var(--text-color);
+    }
+    
+    /* Buttons and interactive elements */
+    button {
+      background-color: var(--accent-color);
+      color: white;
+      border: none;
+      border-radius: 4px;
+      padding: 8px 16px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    
+    button:hover {
+      background-color: #B64A43;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(200, 90, 84, 0.2);
+    }
+    
+    /* Search box */
+    .search input {
+      border: 2px solid var(--border-color);
+      border-radius: 6px;
+      padding: 8px 12px;
+      background-color: white;
+    }
+    
+    .search input:focus {
+      border-color: var(--accent-color);
+      outline: none;
+    }
+    
+    /* Cover page */
+    .cover {
+      background: linear-gradient(135deg, #D4A574 0%, #E8D5C4 100%);
+    }
+    
+    /* Tables */
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    table th {
+      background-color: var(--primary-color);
+      color: white;
+      padding: 12px;
+    }
+    
+    table td {
+      border: 1px solid var(--border-color);
+      padding: 10px 12px;
+    }
+    
+    table tr:hover {
+      background-color: rgba(212, 165, 116, 0.1);
+    }
+    
+    /* Enhanced spacing and readability */
+    p {
+      line-height: 1.8;
+      margin-bottom: 15px;
+    }
+    
+    li {
+      line-height: 1.8;
+      margin-bottom: 8px;
+    }
+  </style>
 </head>
 <body>
   <div id="app">Chargement du cours...</div>
   <script>
     window.$docsify = {
-      name: 'Mi curso de francés', // Título del curso que se muestra en la esquina superior
-      repo: 'https://github.com/daborr1013/mi-curso-github-daniela', // Enlace a tu repositorio en la esquina superior
-      loadSidebar: true,     // Activa el menú lateral autogestionado
-      subMaxLevel: 2,        // Muestra los subtítulos (h2, h3) de cada lección en el menú
-      loadNavbar: false,     // Cambia a true si quieres menú superior
-      auto2top: true,        // Hace scroll hacia arriba automáticamente al cambiar de tema
+      name: '🇫🇷 Mi curso de francés',
+      repo: 'https://github.com/daborr1013/mi-curso-github-daniela',
+      loadSidebar: true,
+      subMaxLevel: 2,
+      loadNavbar: false,
+      auto2top: true,
       
-      // Configuración del buscador integrado
+      // Search configuration
       search: {
         maxAge: 86400000,
         paths: 'auto',
-        placeholder: 'Chercher dans le cours...',
-        noData: 'On ne trouve pas de résultats!',
+        placeholder: '🔍 Chercher dans le cours...',
+        noData: '❌ On ne trouve pas de résultats!',
         depth: 6
       }
     }
