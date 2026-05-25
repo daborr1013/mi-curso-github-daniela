@@ -1,10 +1,7 @@
 ## 🎥 Présentation du cours
 
 <iframe 
-  src="../reveal/00-intro.html" 
+  src="./reveal/00-intro.html" 
   width="100%" 
-  height="500px">
+  height="600px">
 </iframe>
-
-➡️ Ouvrir en plein écran :
-../reveal/index.html
