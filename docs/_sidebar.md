@@ -12,6 +12,7 @@
 *  **Unité 3. Interagir et résoudre des problèmes**
   * [Unité 3. Interagir et résoudre des problèmes](03-tema-3/03-leccion.md)
   * [Résumé Unité 3](03-tema-3/03-resumen.html)
+  * [Activité](03-tema-3/03-actividad.md)
 *  **Unité 4.  Culture et communication**
   * [Unité 4.  Culture et communication](04-tema-4/04-leccion.md)
   * [Résumé Unité 4](04-tema-4/04-resumen.html)
