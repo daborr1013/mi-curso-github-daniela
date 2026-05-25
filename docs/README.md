@@ -8,8 +8,7 @@ L'objectif est d'ameliorer votre communication dans des situations reelles: arri
 
 ## Commencer
 
-- [Voir l'introduction du cours](intro.md)
-- [Ouvrir l'introduction en mode diaporama](intro-slides.html)
+- [Voir l'introduction du cours](00-introduccion/00-leccion.md)
 
 ## Contenu du cours
 
