@@ -67,3 +67,14 @@ Formation: radical de nous + -ais, -ais, -ait…
 > – Qu’est-ce que tu faisais hier soir ?
 
 > –  Je regardais la télévision quand tu as appelé.
+
+***
+
+## Auto-évaluation
+
+À la fin de cette unité, vérifiez si vous pouvez:
+
+- expliquer la différence entre l'imparfait et le passé composé;
+- décrire une habitude passée;
+- raconter une action ponctuelle dans le passé;
+- écrire trois phrases sur votre routine d'hier.

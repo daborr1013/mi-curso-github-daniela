@@ -2,6 +2,7 @@
 
 * **Introduction**
   * [Introduction](00-introduccion/00-leccion.md)
+  * [Guide didactique](00-introduccion/guia-didactica.md)
 *  **Unité 1. Arriver en France**
   * [Unité 1. Arriver en France](01-tema-1/01-leccion.md)
   * [Résumé Unité 1](01-tema-1/01-resumen.md)

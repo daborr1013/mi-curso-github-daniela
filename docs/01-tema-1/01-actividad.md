@@ -4,6 +4,7 @@ Pratiquez votre français en complétant cette activité interactive ! Vous appr
 
 <iframe 
   src="twine/01-tema-actividad/Activite-Unite-1.html" 
+  title="Activité interactive de l'unité 1 sur le passé composé en voyage"
   width="100%" 
   height="800px"
   style="border: 1px solid #ddd; border-radius: 4px;">

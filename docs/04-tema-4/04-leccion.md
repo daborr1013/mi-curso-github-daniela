@@ -80,3 +80,14 @@ Le vouvoiement peut être perçu comme un manque de respect ou un signe de dista
 
 > – Bonjour Madame, pourriez-vous m’aider ?  
 > – Bien sûr, je vous écoute.
+
+***
+
+## Auto-évaluation
+
+À la fin de cette unité, vérifiez si vous pouvez:
+
+- identifier une situation formelle et une situation informelle;
+- choisir entre tu et vous selon le contexte;
+- utiliser deux formules de politesse;
+- expliquer un aspect simple de la culture française.
