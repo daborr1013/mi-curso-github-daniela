@@ -2,7 +2,7 @@
 
 ## 🎯 Objectifs de l'unité
 
-- Utiliser des expressions pour demander et se plaindre
+- Utiliser des expressions pour demander de l’aide et se plaindre
 - Interagir dans des situations problématiques (hôtel, service, etc.)
 - Comprendre et utiliser les pronoms COD et COI
 - Améliorer la communication orale et écrite
@@ -23,6 +23,8 @@ Pour formuler des demandes de manière **polie,** on utilise des formules telles
 
 > Est-ce que vous pouvez… ?
 
+> Je voudrais parler à quelqu’un, s’il vous plaît.
+
 ```
 Ces expressions sont indispensables dans la vie quotidienne.
 ```
@@ -37,15 +39,17 @@ Pour faire part d'un problème ou se plaindre :
 
 > Je ne suis pas satisfait(e)
 
+> Pouvez-vous trouver une solution ?
+
 ```
 Très utile en voyage.
 ```
 
 ***
 
-## 3.2. Grammaire : les pronoms complèments
+## 3.2. Grammaire : les pronoms compléments
 
-### COD (Complèment d'object direct)
+### COD (complément d’objet direct)
 
 Ils sont utilisés pour **remplacer** le complément d'objet direct :
 
@@ -56,7 +60,9 @@ Ils sont utilisés pour **remplacer** le complément d'objet direct :
 
 > **Exemple :** Je prends ***le train*** → Je ***le*** prends
 
-### COI (Complèment d'object indirect)
+> **Autre exemple :** Je prends ***la chambre*** → Je ***la*** prends
+
+### COI (complément d’objet indirect)
 
 Ils sont utilisés avec les verbes qui prennent **à** :
 
@@ -67,14 +73,21 @@ Ils sont utilisés avec les verbes qui prennent **à** :
 
 > **Exemple :** Je parle ***à*** Marie → Je ***lui*** parle
 
+> **Autre exemple :** Je parle ***au réceptionniste*** → Je ***lui*** parle
+
 ### Position des pronoms
 
 ```
-Los pronombres se colocan antes del verbo:
+Les pronoms se placent avant le verbe :
 
 - Je ne le vois pas
 - Je lui parle
 ```
+
+**Attention :**
+
+- *le / la / les* remplacent une chose ou une personne sans **à**.
+- *lui / leur* remplacent une personne introduite par **à**.
 
 ***
 
@@ -95,3 +108,9 @@ Los pronombres se colocan antes del verbo:
 > – Excusez-moi, je ne trouve pas ma réservation.
 
 > –  Je vais vous aider.
+
+**Mini-dialogue guidé :**
+
+> – Excusez-moi, il y a un problème dans ma chambre.  
+> – Qu’est-ce qu’il y a ?  
+> – La chambre n’est pas propre. Pouvez-vous m’aider ?

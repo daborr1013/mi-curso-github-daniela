@@ -18,23 +18,30 @@
 Le passé composé exprime qu’une **action dans le passé est terminée.** Il souligne ainsi principalement le **résultat** ou la **conséquence de l’action.** Dans la langue parlée, le passé composé remplace la plupart du temps **le passé simple.**
 
 ```
-Formation: auxiliaire avoir o être + participe passé
+Formation: auxiliaire avoir ou être + participe passé
 ```
 
-| Con avoir | *j’ai pris, tu as réservé, nous avons visité* |
+| Avec avoir | *j’ai pris, tu as réservé, nous avons visité* |
 | --------- | ------------------------------------------- |
-| **Con être** | ***je suis arrivé(e), ils sont partis*** |
-| **Acorde del participio con être** | ***elle est arrivée*** |
-| **Negación** | ***je n’ai pas pris le train*** |
+| **Avec être** | ***je suis arrivé(e), ils sont partis*** |
+| **Accord du participe avec être** | ***elle est arrivée*** |
+| **Négation** | ***je n’ai pas pris le train*** |
 
 ### Utilisation
 
-* **Cuando se trata de una acción puntual en el pasado :** *J’ai voyagé hier*
-* **Cuando se trata de una secuencia de acciones :** *J’ai pris l’avion et j’ai réservé un hôtel*
+* **Pour une action ponctuelle dans le passé :** *J’ai voyagé hier*
+* **Pour une séquence d’actions :** *J’ai pris l’avion et j’ai réservé un hôtel*
+
+### Exemples guidés
+
+- *Je prends l’avion.* → *J’ai pris l’avion.*
+- *Tu réserves une chambre.* → *Tu as réservé une chambre.*
+- *Elle arrive à l’hôtel.* → *Elle est arrivée à l’hôtel.*
+- *Nous visitons Paris.* → *Nous avons visité Paris.*
 
 ***
 
-## 1.2. Lexique : le transport et le hébergement
+## 1.2. Lexique : le transport et l’hébergement
 
 
 
@@ -71,3 +78,7 @@ Formation: auxiliaire avoir o être + participe passé
 > – Bonjour, j’ai une réservation au nom de Dupont.
 
 > – Oui, voici votre chambre.
+
+**Formule utile :**
+
+> – Bonjour, je voudrais une chambre, s’il vous plaît.

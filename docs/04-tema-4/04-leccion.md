@@ -68,13 +68,24 @@ En France, dire bonjour avant de parler est très important.
 > Pourriez-vous m’aider ?
 
 ```
-Le vouvoiement peut être perçu comme un manque de respect ou un signe de distance si on l'utilise avec un proche.
+Le tutoiement peut être perçu comme un manque de respect avec un inconnu.
+Le vouvoiement peut créer de la distance avec un proche.
 ```
 
 #### Expressions utiles
 
 - demander poliment : *Pourriez-vous m’indiquer…*
 - proposer (informel) : *On se voit ce soir ?*
+- saluer dans une situation formelle : *Bonjour Madame / Monsieur*
+- saluer dans une situation informelle : *Salut !*
+
+**Exemples de choix du registre :**
+
+| Situation | Registre conseillé | Exemple |
+| --------- | ------------------ | ------- |
+| Avec un ami | Informel | *Salut, tu vas bien ?* |
+| À l’accueil d’un hôtel | Formel | *Bonjour, pourriez-vous m’aider ?* |
+| Avec un professeur | Formel | *Vous pouvez répéter, s’il vous plaît ?* |
 
 **Exemple de communication :**
 
