@@ -18,6 +18,13 @@ L'objectif est d'améliorer votre communication dans des situations réelles: ar
 3. [Interagir et résoudre des problèmes](03-tema-3/03-leccion.md)
 4. [Culture et communication](04-tema-4/04-leccion.md)
 
+## Activités interactives
+
+1. [Arriver en France](01-tema-1/01-actividad.md)
+2. [La vie quotidienne](02-tema-2/02-actividad.md)
+3. [Interagir et résoudre des problèmes](03-tema-3/03-actividad.md)
+4. [Culture et communication](04-tema-4/04-actividad.md)
+
 ## Évaluation du cours
 
 - [Répondez au questionnaire final](05-cuestionario-final/05-cuestionario-final.md)

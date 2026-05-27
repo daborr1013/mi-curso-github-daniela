@@ -10,6 +10,7 @@
 *  **Unité 2. La vie quotidienne**
   * [Unité 2. La vie quotidienne](02-tema-2/02-leccion.md)
   * [Résumé Unité 2](02-tema-2/02-resumen.md)
+  * [Activité](02-tema-2/02-actividad.md)
 *  **Unité 3. Interagir et résoudre des problèmes**
   * [Unité 3. Interagir et résoudre des problèmes](03-tema-3/03-leccion.md)
   * [Résumé Unité 3](03-tema-3/03-resumen.html)
@@ -17,10 +18,11 @@
 *  **Unité 4.  Culture et communication**
   * [Unité 4.  Culture et communication](04-tema-4/04-leccion.md)
   * [Résumé Unité 4](04-tema-4/04-resumen.html)
+  * [Activité](04-tema-4/04-actividad.md)
 * **Évaluation final**
-  * [Évaluation final du cours](05-cuestionario-final.md)
+  * [Évaluation final du cours](05-cuestionario-final/05-cuestionario-final.md)
 * **Conclusion du cours**
-  * [Conclusion du cours](06-fin-de-curso.md)
+  * [Conclusion du cours](06-fin-de-curso/06-fin-de-curso.md)
 * **Bibliographie du cours**
   * [Bibliographie du cours](08-bibliografia/08-bibliografia.md)
 * **Ressources**
