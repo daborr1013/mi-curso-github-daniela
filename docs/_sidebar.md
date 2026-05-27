@@ -17,5 +17,11 @@
 *  **Unité 4.  Culture et communication**
   * [Unité 4.  Culture et communication](04-tema-4/04-leccion.md)
   * [Résumé Unité 4](04-tema-4/04-resumen.html)
+* **Évaluation final**
+  * [Évaluation final du course](05-cuestionario-final.md)
+* **Conclusion du course**
+  * [Conclusion du course](06-fin-de-curso.md)
 * **Ressources**
-  * [Ressources](05-epub-curso/05-epub.md)
+  * [Ressources](07-epub-curso/07-epub.md)
+* **autoevaluación norma UNE 71362**
+  * [Norma UNE 71362](tabla-evaluacion.md)
