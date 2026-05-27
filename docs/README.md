@@ -17,3 +17,19 @@ L'objectif est d'améliorer votre communication dans des situations réelles: ar
 2. [La vie quotidienne](02-tema-2/02-leccion.md)
 3. [Interagir et résoudre des problèmes](03-tema-3/03-leccion.md)
 4. [Culture et communication](04-tema-4/04-leccion.md)
+
+## Évaluation du cours
+
+- [Répondez au questionnaire final](05-cuestionario-final/05-cuestionario-final.md)
+
+## Fin du cours
+
+- [Fin du cours](06-fin-de-curso/06-fin-de-curso.md)
+
+## Ressources
+
+- [Téléchargez le cours complet](07-epub-curso/07-epub.md)
+
+## Autoevaluación
+
+- [Tabla de evaluación Norma UNE 71362](09-autoevaluacion/tabla-evaluacion.md)
