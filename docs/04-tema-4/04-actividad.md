@@ -13,12 +13,18 @@ Adapter son langage selon la situation :
 
 ## Activite Ren'Py
 
-Le projet se trouve dans :
+L'activite peut etre integree dans le cours si le projet Ren'Py est exporte en version web.
+
+<iframe
+  src="renpy/web/Tu-ou-vous/index.html"
+  title="Activite interactive de l'unite 4 sur les registres formel et informel"
+  width="100%"
+  height="800px"
+  style="border: 1px solid #ddd; border-radius: 4px;">
+</iframe>
+
+Si l'activite ne s'affiche pas, exportez le projet Ren'Py **Tu ou vous ?** en version web et placez le contenu exporte dans :
 
 ```text
-docs/renpy/Tu-ou-vous/
+docs/renpy/web/Tu-ou-vous/
 ```
-
-Ouvrez ce dossier avec Ren'Py et lancez le projet **Tu ou vous ?**.
-
-L'activite propose cinq situations courtes avec un score final sur 5.
