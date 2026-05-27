@@ -24,7 +24,7 @@ Le cours est structuré en quatre unités:
 3. Interagir et résoudre des problèmes.
 4. Culture et communication.
 
-Chaque unité contient des objectifs, des contenus de grammaire ou de lexique, des exemples et un résumé. Les unités 1 et 3 incluent aussi une activité interactive.
+Chaque unité contient des objectifs, des contenus de grammaire ou de lexique, des exemples et un résumé. Tous les unités incluent aussi une activité interactive.
 
 ## Méthodologie
 
