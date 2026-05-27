@@ -26,6 +26,10 @@ L'objectif est d'améliorer votre communication dans des situations réelles: ar
 
 - [Fin du cours](06-fin-de-curso/06-fin-de-curso.md)
 
+## Bibliographie
+
+- [Bibliographie du cours](08-bibliografia/08-bibliografia.md)
+
 ## Ressources
 
 - [Téléchargez le cours complet](07-epub-curso/07-epub.md)

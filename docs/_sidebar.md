@@ -21,6 +21,8 @@
   * [Évaluation final du cours](05-cuestionario-final.md)
 * **Conclusion du cours**
   * [Conclusion du cours](06-fin-de-curso.md)
+* **Bibliographie du cours**
+  * [Bibliographie du cours](08-bibliografia/08-bibliografia.md)
 * **Ressources**
   * [Ressources](07-epub-curso/07-epub.md)
 * **autoevaluación norma UNE 71362**
