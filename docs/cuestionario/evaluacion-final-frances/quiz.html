@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Evaluation finale - Francais A2</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #243042;
+      --muted: #657084;
+      --line: #d8dee8;
+      --surface: #ffffff;
+      --soft: #f4f7fb;
+      --accent: #246bfe;
+      --good: #157347;
+      --bad: #b42318;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--soft);
+      color: var(--ink);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.5;
+    }
+
+    main {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+
+    header {
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(1.7rem, 4vw, 2.4rem);
+      line-height: 1.1;
+    }
+
+    .intro {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .question {
+      margin: 18px 0;
+      padding: 20px;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+
+    .question h2 {
+      margin: 0 0 8px;
+      font-size: 1.05rem;
+    }
+
+    .prompt {
+      margin: 0 0 14px;
+      font-weight: 600;
+    }
+
+    .choices {
+      display: grid;
+      gap: 10px;
+    }
+
+    label.choice {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      padding: 10px 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      cursor: pointer;
+    }
+
+    input[type="radio"] {
+      margin-top: 4px;
+    }
+
+    input[type="text"],
+    select {
+      width: 100%;
+      min-height: 42px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 8px 10px;
+      font: inherit;
+      color: var(--ink);
+      background: #fff;
+    }
+
+    .match-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(180px, 0.9fr);
+      gap: 12px;
+      align-items: center;
+      margin: 10px 0;
+    }
+
+    .match-source {
+      padding: 10px 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+    }
+
+    .actions {
+      position: sticky;
+      bottom: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+      margin-top: 22px;
+      padding: 14px 0;
+      background: linear-gradient(to top, var(--soft) 75%, rgba(244, 247, 251, 0));
+    }
+
+    button {
+      border: 0;
+      border-radius: 8px;
+      padding: 11px 16px;
+      font: inherit;
+      font-weight: 700;
+      color: #fff;
+      background: var(--accent);
+      cursor: pointer;
+    }
+
+    button.secondary {
+      color: var(--ink);
+      background: #e7ecf4;
+    }
+
+    .result {
+      min-height: 28px;
+      font-weight: 700;
+    }
+
+    .feedback {
+      display: none;
+      margin-top: 12px;
+      padding-top: 12px;
+      border-top: 1px solid var(--line);
+      font-weight: 700;
+    }
+
+    .is-correct {
+      border-color: rgba(21, 115, 71, 0.45);
+    }
+
+    .is-correct .feedback {
+      display: block;
+      color: var(--good);
+    }
+
+    .is-wrong {
+      border-color: rgba(180, 35, 24, 0.45);
+    }
+
+    .is-wrong .feedback {
+      display: block;
+      color: var(--bad);
+    }
+
+    .loading,
+    .error {
+      padding: 18px;
+      border-radius: 8px;
+      background: var(--surface);
+      border: 1px solid var(--line);
+    }
+
+    @media (max-width: 640px) {
+      main {
+        padding: 16px;
+      }
+
+      .question {
+        padding: 16px;
+      }
+
+      .match-row {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Evaluation finale</h1>
+      <p class="intro">Questionnaire interactif de francais A2.</p>
+    </header>
+
+    <form id="quiz">
+      <p class="loading">Chargement du questionnaire...</p>
+    </form>
+
+    <div class="actions">
+      <button type="button" id="check">Corriger</button>
+      <button type="button" class="secondary" id="reset">Recommencer</button>
+      <span class="result" id="result" aria-live="polite"></span>
+    </div>
+  </main>
+
+  <script>
+    const ns = "http://www.imsglobal.org/xsd/imsqti_v2p1";
+    const quiz = document.querySelector("#quiz");
+    const result = document.querySelector("#result");
+    let questions = [];
+
+    function text(node) {
+      return node ? node.textContent.trim() : "";
+    }
+
+    function nodes(parent, tag) {
+      return Array.from(parent.getElementsByTagNameNS(ns, tag));
+    }
+
+    function escapeHtml(value) {
+      return value.replace(/[&<>"']/g, (char) => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#039;"
+      }[char]));
+    }
+
+    function normalize(value) {
+      return value.trim().toLocaleLowerCase("fr").normalize("NFD").replace(/\p{Diacritic}/gu, "");
+    }
+
+    async function loadXml(path) {
+      const response = await fetch(path);
+      if (!response.ok) {
+        throw new Error(`Impossible de charger ${path}`);
+      }
+      const xmlText = await response.text();
+      const doc = new DOMParser().parseFromString(xmlText, "application/xml");
+      if (doc.querySelector("parsererror")) {
+        throw new Error(`XML non valide: ${path}`);
+      }
+      return doc;
+    }
+
+    function parseChoiceItem(doc, index, itemPath) {
+      const item = doc.documentElement;
+      const interaction = nodes(item, "choiceInteraction")[0];
+      const choices = nodes(interaction, "simpleChoice").map((choice) => ({
+        id: choice.getAttribute("identifier"),
+        label: text(choice)
+      }));
+      return {
+        type: "choice",
+        id: item.getAttribute("identifier") || `q${index + 1}`,
+        title: item.getAttribute("title") || `Question ${index + 1}`,
+        prompt: text(nodes(interaction, "prompt")[0]),
+        correct: text(nodes(item, "correctResponse")[0].getElementsByTagNameNS(ns, "value")[0]),
+        choices,
+        itemPath
+      };
+    }
+
+    function parseMatchItem(doc, index, itemPath) {
+      const item = doc.documentElement;
+      const interaction = nodes(item, "matchInteraction")[0];
+      const sets = nodes(interaction, "simpleMatchSet");
+      const left = nodes(sets[0], "simpleAssociableChoice").map((choice) => ({
+        id: choice.getAttribute("identifier"),
+        label: text(choice)
+      }));
+      const right = nodes(sets[1], "simpleAssociableChoice").map((choice) => ({
+        id: choice.getAttribute("identifier"),
+        label: text(choice)
+      }));
+      const pairs = nodes(item, "correctResponse")[0].getElementsByTagNameNS(ns, "value");
+      return {
+        type: "match",
+        id: item.getAttribute("identifier") || `q${index + 1}`,
+        title: item.getAttribute("title") || `Question ${index + 1}`,
+        prompt: text(nodes(interaction, "prompt")[0]),
+        correct: Array.from(pairs).map((pair) => text(pair)),
+        left,
+        right,
+        itemPath
+      };
+    }
+
+    function parseTextEntryItem(doc, index, itemPath) {
+      const item = doc.documentElement;
+      const body = nodes(item, "itemBody")[0];
+      const prompt = Array.from(body.childNodes).map((node) => {
+        if (node.nodeType === Node.TEXT_NODE) {
+          return node.textContent;
+        }
+        if (node.nodeType !== Node.ELEMENT_NODE) {
+          return "";
+        }
+        return Array.from(node.childNodes).map((child) => {
+          if (child.localName === "textEntryInteraction") {
+            return '<input type="text" autocomplete="off">';
+          }
+          return escapeHtml(child.textContent || "");
+        }).join("");
+      }).join("").trim();
+      return {
+        type: "text",
+        id: item.getAttribute("identifier") || `q${index + 1}`,
+        title: item.getAttribute("title") || `Question ${index + 1}`,
+        promptHtml: prompt,
+        correct: text(nodes(item, "correctResponse")[0].getElementsByTagNameNS(ns, "value")[0]),
+        itemPath
+      };
+    }
+
+    function parseItem(doc, index, itemPath) {
+      const item = doc.documentElement;
+      if (nodes(item, "choiceInteraction").length) {
+        return parseChoiceItem(doc, index, itemPath);
+      }
+      if (nodes(item, "matchInteraction").length) {
+        return parseMatchItem(doc, index, itemPath);
+      }
+      if (nodes(item, "textEntryInteraction").length) {
+        return parseTextEntryItem(doc, index, itemPath);
+      }
+      throw new Error(`Type de question non pris en charge: ${itemPath}`);
+    }
+
+    function renderQuestion(question, index) {
+      const number = index + 1;
+      if (question.type === "choice") {
+        const choices = question.choices.map((choice) => `
+          <label class="choice">
+            <input type="radio" name="${question.id}" value="${escapeHtml(choice.id)}">
+            <span>${escapeHtml(choice.label)}</span>
+          </label>
+        `).join("");
+        return `
+          <section class="question" data-id="${question.id}" data-type="choice">
+            <h2>${number}. ${escapeHtml(question.title)}</h2>
+            <p class="prompt">${escapeHtml(question.prompt)}</p>
+            <div class="choices">${choices}</div>
+            <div class="feedback"></div>
+          </section>
+        `;
+      }
+
+      if (question.type === "match") {
+        const options = ['<option value="">Choisir...</option>'].concat(question.right.map((choice) => (
+          `<option value="${escapeHtml(choice.id)}">${escapeHtml(choice.label)}</option>`
+        ))).join("");
+        const rows = question.left.map((choice) => `
+          <div class="match-row">
+            <div class="match-source">${escapeHtml(choice.label)}</div>
+            <select name="${question.id}-${escapeHtml(choice.id)}">${options}</select>
+          </div>
+        `).join("");
+        return `
+          <section class="question" data-id="${question.id}" data-type="match">
+            <h2>${number}. ${escapeHtml(question.title)}</h2>
+            <p class="prompt">${escapeHtml(question.prompt)}</p>
+            ${rows}
+            <div class="feedback"></div>
+          </section>
+        `;
+      }
+
+      return `
+        <section class="question" data-id="${question.id}" data-type="text">
+          <h2>${number}. ${escapeHtml(question.title)}</h2>
+          <div class="prompt">${question.promptHtml}</div>
+          <div class="feedback"></div>
+        </section>
+      `;
+    }
+
+    async function init() {
+      try {
+        const assessment = await loadXml("assessment.xml");
+        const refs = nodes(assessment, "assessmentItemRef").map((ref) => ref.getAttribute("href"));
+        const docs = await Promise.all(refs.map((href) => loadXml(href)));
+        questions = docs.map((doc, index) => parseItem(doc, index, refs[index]));
+        quiz.innerHTML = questions.map(renderQuestion).join("");
+      } catch (error) {
+        quiz.innerHTML = `<p class="error">${escapeHtml(error.message)}</p>`;
+      }
+    }
+
+    function checkQuestion(question) {
+      const section = document.querySelector(`[data-id="${question.id}"]`);
+      const feedback = section.querySelector(".feedback");
+      let correct = false;
+
+      if (question.type === "choice") {
+        const selected = section.querySelector(`input[name="${question.id}"]:checked`);
+        correct = selected && selected.value === question.correct;
+      } else if (question.type === "match") {
+        correct = question.correct.every((pair) => {
+          const [left, right] = pair.split(/\s+/);
+          const select = section.querySelector(`select[name="${question.id}-${left}"]`);
+          return select && select.value === right;
+        });
+      } else {
+        const input = section.querySelector('input[type="text"]');
+        correct = input && normalize(input.value) === normalize(question.correct);
+      }
+
+      section.classList.toggle("is-correct", correct);
+      section.classList.toggle("is-wrong", !correct);
+      feedback.textContent = correct ? "Correct." : `A revoir. Reponse attendue: ${answerLabel(question)}.`;
+      return correct;
+    }
+
+    function answerLabel(question) {
+      if (question.type === "choice") {
+        const choice = question.choices.find((item) => item.id === question.correct);
+        return choice ? choice.label : question.correct;
+      }
+      if (question.type === "match") {
+        return question.correct.map((pair) => {
+          const [leftId, rightId] = pair.split(/\s+/);
+          const left = question.left.find((item) => item.id === leftId);
+          const right = question.right.find((item) => item.id === rightId);
+          return `${left ? left.label : leftId} = ${right ? right.label : rightId}`;
+        }).join("; ");
+      }
+      return question.correct;
+    }
+
+    document.querySelector("#check").addEventListener("click", () => {
+      const score = questions.filter(checkQuestion).length;
+      result.textContent = `${score} / ${questions.length}`;
+    });
+
+    document.querySelector("#reset").addEventListener("click", () => {
+      quiz.reset();
+      document.querySelectorAll(".question").forEach((section) => {
+        section.classList.remove("is-correct", "is-wrong");
+        section.querySelector(".feedback").textContent = "";
+      });
+      result.textContent = "";
+    });
+
+    init();
+  </script>
+</body>
+</html>

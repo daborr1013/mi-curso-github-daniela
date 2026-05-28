@@ -6,8 +6,17 @@ interactions pour resoudre des problemes, et culture et communication.
 
 ## Questionnaire
 
-Le questionnaire est disponible au format IMS QTI 2.1 pour etre importe dans une
-plateforme compatible avec les tests en ligne.
+Le questionnaire est disponible ci-dessous en version interactive. Le paquet IMS
+QTI 2.1 reste disponible pour etre importe dans une plateforme compatible avec
+les tests en ligne.
+
+<iframe
+  src="cuestionario/evaluacion-final-frances/quiz.html"
+  width="100%"
+  height="850"
+  frameborder="0"
+  loading="lazy">
+</iframe>
 
 - [Telecharger le paquet IMS QTI](../cuestionario/evaluacion-final-frances.zip)
 - [Consulter le fichier assessment.xml](../cuestionario/evaluacion-final-frances/assessment.xml)
