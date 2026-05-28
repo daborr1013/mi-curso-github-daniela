@@ -16,8 +16,7 @@ Avant de terminer, vous pouvez revoir les activités du cours :
 
 Vous pouvez aussi consulter les ressources imprimables :
 
-- [Télécharger les exercices imprimables](recursos/ejercicios-imprimibles.pdf)
-
+- [Télécharger les exercices imprimables](07-epub-curso/07-epub.md)
 - [Télécharger le cours en PDF ou EPUB](07-epub-curso/07-epub.md)
 
 ## Bilan personnel
