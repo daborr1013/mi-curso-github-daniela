@@ -1,14 +1,8 @@
-# Evaluation finale
+# Évaluation finale
 
-Cette evaluation finale permet de verifier les acquis du cours de francais A2.
-Elle couvre les quatre unites du parcours : arrivee en France, vie quotidienne,
-interactions pour resoudre des problemes, et culture et communication.
-
-## Questionnaire
-
-Le questionnaire est disponible ci-dessous en version interactive. Le paquet IMS
-QTI 2.1 reste disponible pour etre importe dans une plateforme compatible avec
-les tests en ligne.
+Cette évaluation finale permet de vérifier les acquis du cours de français A2.
+Elle couvre les quatre unités du parcours : arrivée en France, vie quotidienne,
+interactions pour résoudre des problèmes, et culture et communication.
 
 <iframe
   src="cuestionario/evaluacion-final-frances/quiz.html"
@@ -18,9 +12,9 @@ les tests en ligne.
   loading="lazy">
 </iframe>
 
-## Contenu de l'evaluation
+## Contenu de l'évaluation
 
 - 24 questions au total
-- Questions a choix simple, appariements et reponses courtes
-- Contenus repartis sur les quatre unites du cours
-- Evaluation finale destinee a mesurer la comprehension globale du niveau A2
+- Questions à choix simple, appariements et réponses courtes
+- Contenus répartis sur les quatre unités du cours
+- Évaluation finale destinée à mesurer la compréhension globale du niveau A2
