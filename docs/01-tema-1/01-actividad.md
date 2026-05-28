@@ -1,4 +1,4 @@
-# 🎮 Activité Pratique - Unité 1
+# 🎮 Activité pratique - Unité 1
 
 Pratiquez votre français en complétant cette activité interactive ! Vous apprendrez à utiliser le passé composé dans des contextes réalistes de voyage.
 

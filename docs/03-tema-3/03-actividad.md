@@ -1,4 +1,4 @@
-# 🎮 Activité Pratique - Unité 3
+# 🎮 Activité pratique - Unité 3
 
 Pratiquez votre français en complétant cette activité interactive ! Vous apprendrez à formuler une demande, à exprimer une plainte et à utiliser les pronoms COD/COI dans une situation de communication.
 

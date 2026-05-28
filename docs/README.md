@@ -4,12 +4,12 @@
 
 Bienvenue dans ce cours de français niveau A2 !
 
-L'objectif est d'améliorer votre communication dans des situations réelles: arriver en France, parler de votre quotidien, résoudre des problèmes et adapter votre langage selon le contexte.
+L'objectif est d'améliorer votre communication dans des situations réelles : arriver en France, parler de votre quotidien, résoudre des problèmes et adapter votre langage selon le contexte.
 
 ## Commencer
 
 - [Voir l'introduction du cours](00-introduccion/00-leccion.md)
-- [Consulter la guide didactique](00-introduccion/guia-didactica.md)
+- [Consulter le guide didactique](00-introduccion/guia-didactica.md)
 
 ## Contenu du cours
 

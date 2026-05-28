@@ -17,14 +17,14 @@ Le cours s'adresse à des apprenants qui ont déjà acquis les bases du niveau A
 
 ## Organisation
 
-Le cours est structuré en quatre unités:
+Le cours est structuré en quatre unités :
 
 1. Arriver en France.
 2. La vie quotidienne.
 3. Interagir et résoudre des problèmes.
 4. Culture et communication.
 
-Chaque unité contient des objectifs, des contenus de grammaire ou de lexique, des exemples et un résumé. Tous les unités incluent aussi une activité interactive.
+Chaque unité contient des objectifs, des contenus de grammaire ou de lexique, des exemples et un résumé. Toutes les unités incluent aussi une activité interactive.
 
 ## Méthodologie
 

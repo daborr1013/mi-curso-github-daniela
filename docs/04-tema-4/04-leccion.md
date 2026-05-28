@@ -1,4 +1,4 @@
-# Unité 4.  Culture et communication
+# Unité 4. Culture et communication
 
 ## 🎯 Objectifs de l'unité
 
@@ -23,11 +23,11 @@ En France, dire bonjour avant de parler est très important.
 
 ### Vie quotidienne : la ville vs la campagne
 
-- **La vie quotidienne dans la ville :** Rythme de vie *plus rapide*
+- **La vie quotidienne en ville :** rythme de vie *plus rapide*
 
 ![Calle de Paris](img/paris.jpg)
 
-- **La vie quotidienne dans la campagne :** Vie *plus calme* dans les zones rurales
+- **La vie quotidienne à la campagne :** vie *plus calme* dans les zones rurales
 
 ![Iglesia de pueblo con montañas detrás](img/pueblo.jpg)
 
@@ -41,7 +41,7 @@ En France, dire bonjour avant de parler est très important.
 
 - amis
 - famille
-- personnes de même âge
+- personnes du même âge
 
 ![Familia cocinando y comiendo](img/familia.jpg)
 
@@ -96,9 +96,9 @@ Le vouvoiement peut créer de la distance avec un proche.
 
 ## Auto-évaluation
 
-À la fin de cette unité, vérifiez si vous pouvez:
+À la fin de cette unité, vérifiez si vous pouvez :
 
-- identifier une situation formelle et une situation informelle;
-- choisir entre tu et vous selon le contexte;
-- utiliser deux formules de politesse;
+- identifier une situation formelle et une situation informelle ;
+- choisir entre tu et vous selon le contexte ;
+- utiliser deux formules de politesse ;
 - expliquer un aspect simple de la culture française.

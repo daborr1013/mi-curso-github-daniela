@@ -1,3 +1,3 @@
 # Bibliographie du cours
 
-# Images utilisés
+# Images utilisées

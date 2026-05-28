@@ -15,12 +15,12 @@
   * [Unité 3. Interagir et résoudre des problèmes](03-tema-3/03-leccion.md)
   * [Résumé Unité 3](03-tema-3/03-resumen.html)
   * [Activité](03-tema-3/03-actividad.md)
-*  **Unité 4.  Culture et communication**
-  * [Unité 4.  Culture et communication](04-tema-4/04-leccion.md)
+*  **Unité 4. Culture et communication**
+  * [Unité 4. Culture et communication](04-tema-4/04-leccion.md)
   * [Résumé Unité 4](04-tema-4/04-resumen.html)
   * [Activité](04-tema-4/04-actividad.md)
-* **Évaluation final**
-  * [Évaluation final du cours](05-cuestionario-final/05-cuestionario-final.md)
+* **Évaluation finale**
+  * [Évaluation finale du cours](05-cuestionario-final/05-cuestionario-final.md)
 * **Conclusion du cours**
   * [Conclusion du cours](06-fin-de-curso/06-fin-de-curso.md)
 * **Bibliographie du cours**
