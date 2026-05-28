@@ -6,6 +6,17 @@ Bienvenue dans ce cours de français niveau A2 !
 
 L'objectif est d'améliorer votre communication dans des situations réelles : arriver en France, parler de votre quotidien, résoudre des problèmes et adapter votre langage selon le contexte.
 
+## Informations du cours
+
+| Élément | Description |
+|---|---|
+| Niveau | A2 |
+| Public cible | Apprenants ayant déjà acquis les bases du niveau A1 |
+| Durée estimée | 8 heures environ |
+| Modalité | Autoformation guidée en ligne |
+| Langue principale | Français |
+| Conditions d'utilisation | Matériel publié sous la licence du projet, disponible dans le dépôt GitHub |
+
 ## Commencer
 
 - [Voir l'introduction du cours](00-introduccion/00-leccion.md)
@@ -40,6 +51,7 @@ L'objectif est d'améliorer votre communication dans des situations réelles : a
 ## Ressources
 
 - [Téléchargez le cours complet](07-epub-curso/07-epub.md)
+- [Téléchargez les exercices imprimables](recursos/ejercicios-imprimibles.pdf)
 
 ## Autoevaluación
 

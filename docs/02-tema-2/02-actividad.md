@@ -12,7 +12,7 @@ Choisir le temps verbal correct selon le contexte :
 
 ## Activité Ren'Py
 
-L'activité peut être intégrée dans le cours si le projet Ren'Py est exporté en version web.
+L'activité interactive est intégrée ci-dessous.
 
 <iframe
   src="renpy/web/La-vie-quotidienne/index.html"
@@ -22,8 +22,10 @@ L'activité peut être intégrée dans le cours si le projet Ren'Py est exporté
   style="border: 1px solid #ddd; border-radius: 4px;">
 </iframe>
 
-Si l'activité ne s'affiche pas, exportez le projet Ren'Py **La vie quotidienne** en version web et placez le contenu exporté dans :
+## Alternative textuelle
 
-```text
-docs/renpy/web/La-vie-quotidienne/
-```
+Si l'activité ne s'affiche pas, révisez les exemples suivants :
+
+- *Quand j'étais petit, je me levais tôt.* → habitude dans le passé : imparfait.
+- *Hier, j'ai pris le train.* → action ponctuelle et terminée : passé composé.
+- *Je regardais la télévision quand tu as appelé.* → contexte à l'imparfait + action ponctuelle au passé composé.

@@ -13,7 +13,7 @@ Adapter son langage selon la situation :
 
 ## Activité Ren'Py
 
-L'activité peut être intégrée dans le cours si le projet Ren'Py est exporté en version web.
+L'activité interactive est intégrée ci-dessous.
 
 <iframe
   src="renpy/web/Tu-ou-vous/index.html"
@@ -23,8 +23,12 @@ L'activité peut être intégrée dans le cours si le projet Ren'Py est exporté
   style="border: 1px solid #ddd; border-radius: 4px;">
 </iframe>
 
-Si l'activité ne s'affiche pas, exportez le projet Ren'Py **Tu ou vous ?** en version web et placez le contenu exporté dans :
+## Alternative textuelle
 
-```text
-docs/renpy/web/Tu-ou-vous/
-```
+Si l'activité ne s'affiche pas, utilisez ces situations pour vous entraîner :
+
+| Situation | Forme conseillée | Exemple |
+|---|---|---|
+| Avec un ami | tu | *Salut, tu vas bien ?* |
+| À l'accueil d'un hôtel | vous | *Bonjour, pourriez-vous m'aider ?* |
+| Avec un professeur | vous | *Vous pouvez répéter, s'il vous plaît ?* |
