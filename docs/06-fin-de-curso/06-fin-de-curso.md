@@ -8,16 +8,16 @@ Pendant ce parcours, vous avez travaillé des situations de communication utiles
 
 Avant de terminer, vous pouvez revoir les activités du cours :
 
-- [Activité de l'unité 1](../01-tema-1/01-actividad.md)
-- [Activité de l'unité 2](../02-tema-2/02-actividad.md)
-- [Activité de l'unité 3](../03-tema-3/03-actividad.md)
-- [Activité de l'unité 4](../04-tema-4/04-actividad.md)
+- [Activité de l'unité 1](./01-tema-1/01-actividad.md)
+- [Activité de l'unité 2](./02-tema-2/02-actividad.md)
+- [Activité de l'unité 3](./03-tema-3/03-actividad.md)
+- [Activité de l'unité 4](./04-tema-4/04-actividad.md)
 
 Vous pouvez aussi consulter les ressources imprimables :
 
-- [Télécharger les exercices imprimables](../recursos/ejercicios-imprimibles.pdf)
-- [Consulter l'évaluation finale](../05-cuestionario-final/05-cuestionario-final.md)
-- [Télécharger le cours en PDF ou EPUB](../07-epub-curso/07-epub.md)
+- [Télécharger les exercices imprimables](./recursos/ejercicios-imprimibles.pdf)
+- [Consulter l'évaluation finale](./05-cuestionario-final/05-cuestionario-final.md)
+- [Télécharger le cours en PDF ou EPUB](./07-epub-curso/07-epub.md)
 
 ## Bilan personnel
 
