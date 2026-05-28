@@ -18,9 +18,9 @@ les tests en ligne.
   loading="lazy">
 </iframe>
 
-- [Telecharger le paquet IMS QTI](cuestionario/evaluacion-final-frances.zip)
-- [Consulter le fichier assessment.xml](cuestionario/evaluacion-final-frances/assessment.xml)
-- [Consulter le manifeste IMS](cuestionario/evaluacion-final-frances/imsmanifest.xml)
+- [Telecharger le paquet IMS QTI](cuestionario/evaluacion-final-frances.zip ':ignore')
+- [Consulter le fichier assessment.xml](cuestionario/evaluacion-final-frances/assessment.xml ':ignore')
+- [Consulter le manifeste IMS](cuestionario/evaluacion-final-frances/imsmanifest.xml ':ignore')
 
 ## Contenu de l'evaluation
 
