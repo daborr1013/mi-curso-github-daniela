@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" identifier="q11" title="Imparfait: formación" adaptive="false" timeDependent="false">
+    <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+        <correctResponse>
+            <value>A</value>
+        </correctResponse>
+    </responseDeclaration>
+    <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float">
+        <defaultValue><value>0</value></defaultValue>
+    </outcomeDeclaration>
+    <itemBody>
+        <choiceInteraction responseIdentifier="RESPONSE" maxChoices="1" shuffle="true">
+            <prompt>Según la formación del imparfait, ¿cuál es correcta?</prompt>
+            <simpleChoice identifier="A">je travaillais</simpleChoice>
+            <simpleChoice identifier="B">je travaillé</simpleChoice>
+            <simpleChoice identifier="C">je travailler</simpleChoice>
+        </choiceInteraction>
+    </itemBody>
+    <responseProcessing template="http://www.imsglobal.org/question/qti_v2p1/rptemplates/match_correct"/>
+</assessmentItem>

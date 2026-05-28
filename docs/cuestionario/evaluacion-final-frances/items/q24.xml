@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" identifier="q24" title="Registro según situación" adaptive="false" timeDependent="false">
+    <responseDeclaration identifier="RESPONSE" cardinality="multiple" baseType="directedPair">
+        <correctResponse>
+            <value>A 2</value>
+            <value>B 1</value>
+            <value>C 3</value>
+        </correctResponse>
+    </responseDeclaration>
+    <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float">
+        <defaultValue><value>0</value></defaultValue>
+    </outcomeDeclaration>
+    <itemBody>
+        <matchInteraction responseIdentifier="RESPONSE" maxAssociations="3">
+            <prompt>Empareja la situación con el registro aconsejado.</prompt>
+            <simpleMatchSet>
+                <simpleAssociableChoice identifier="A" matchMax="1">Avec un ami</simpleAssociableChoice>
+                <simpleAssociableChoice identifier="B" matchMax="1">À l’accueil d’un hôtel</simpleAssociableChoice>
+                <simpleAssociableChoice identifier="C" matchMax="1">Avec un professeur</simpleAssociableChoice>
+            </simpleMatchSet>
+            <simpleMatchSet>
+                <simpleAssociableChoice identifier="1" matchMax="1">Formel</simpleAssociableChoice>
+                <simpleAssociableChoice identifier="2" matchMax="1">Informel</simpleAssociableChoice>
+                <simpleAssociableChoice identifier="3" matchMax="1">Formel</simpleAssociableChoice>
+            </simpleMatchSet>
+        </matchInteraction>
+    </itemBody>
+    <responseProcessing template="http://www.imsglobal.org/question/qti_v2p1/rptemplates/match_correct"/>
+</assessmentItem>

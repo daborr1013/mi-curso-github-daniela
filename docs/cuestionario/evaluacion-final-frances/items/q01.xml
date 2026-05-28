@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" identifier="q01" title="Passé composé: auxiliar" adaptive="false" timeDependent="false">
+    <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+        <correctResponse>
+            <value>A</value>
+        </correctResponse>
+    </responseDeclaration>
+    <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float">
+        <defaultValue><value>0</value></defaultValue>
+    </outcomeDeclaration>
+    <itemBody>
+        <choiceInteraction responseIdentifier="RESPONSE" maxChoices="1" shuffle="true">
+            <prompt>Selecciona la frase correcta en passé composé para: « Je prends l’avion ».</prompt>
+            <simpleChoice identifier="A">J'ai pris l'avion</simpleChoice>
+            <simpleChoice identifier="B">Je prenais l’avion</simpleChoice>
+            <simpleChoice identifier="C">Je prends l’avion</simpleChoice>
+        </choiceInteraction>
+    </itemBody>
+    <responseProcessing template="http://www.imsglobal.org/question/qti_v2p1/rptemplates/match_correct"/>
+</assessmentItem>

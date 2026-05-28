@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" identifier="q08" title="Contraste de tiempos" adaptive="false" timeDependent="false">
+    <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+        <correctResponse>
+            <value>A</value>
+        </correctResponse>
+    </responseDeclaration>
+    <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float">
+        <defaultValue><value>0</value></defaultValue>
+    </outcomeDeclaration>
+    <itemBody>
+        <choiceInteraction responseIdentifier="RESPONSE" maxChoices="1" shuffle="true">
+            <prompt>Elige la opción correcta para completar: « Il faisait froid quand je ___ ».</prompt>
+            <simpleChoice identifier="A">suis sorti</simpleChoice>
+            <simpleChoice identifier="B">sortais</simpleChoice>
+            <simpleChoice identifier="C">sors</simpleChoice>
+        </choiceInteraction>
+    </itemBody>
+    <responseProcessing template="http://www.imsglobal.org/question/qti_v2p1/rptemplates/match_correct"/>
+</assessmentItem>

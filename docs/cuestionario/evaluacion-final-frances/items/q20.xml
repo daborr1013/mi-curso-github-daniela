@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" identifier="q20" title="Registro informal" adaptive="false" timeDependent="false">
+    <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+        <correctResponse>
+            <value>A</value>
+        </correctResponse>
+    </responseDeclaration>
+    <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float">
+        <defaultValue><value>0</value></defaultValue>
+    </outcomeDeclaration>
+    <itemBody>
+        <choiceInteraction responseIdentifier="RESPONSE" maxChoices="1" shuffle="true">
+            <prompt>¿Con quién es adecuado usar tu y un registro informal?</prompt>
+            <simpleChoice identifier="A">Con un amigo.</simpleChoice>
+            <simpleChoice identifier="B">Con un desconocido en recepción.</simpleChoice>
+            <simpleChoice identifier="C">Con una persona en un contexto profesional formal.</simpleChoice>
+        </choiceInteraction>
+    </itemBody>
+    <responseProcessing template="http://www.imsglobal.org/question/qti_v2p1/rptemplates/match_correct"/>
+</assessmentItem>

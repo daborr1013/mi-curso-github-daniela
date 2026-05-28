@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" identifier="q14" title="Queja simple" adaptive="false" timeDependent="false">
+    <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+        <correctResponse>
+            <value>A</value>
+        </correctResponse>
+    </responseDeclaration>
+    <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float">
+        <defaultValue><value>0</value></defaultValue>
+    </outcomeDeclaration>
+    <itemBody>
+        <choiceInteraction responseIdentifier="RESPONSE" maxChoices="1" shuffle="true">
+            <prompt>¿Cuál es una forma adecuada de formular una queja?</prompt>
+            <simpleChoice identifier="A">La chambre n’est pas propre.</simpleChoice>
+            <simpleChoice identifier="B">Je me levais à 8h.</simpleChoice>
+            <simpleChoice identifier="C">Auberge, gare, billet.</simpleChoice>
+        </choiceInteraction>
+    </itemBody>
+    <responseProcessing template="http://www.imsglobal.org/question/qti_v2p1/rptemplates/match_correct"/>
+</assessmentItem>

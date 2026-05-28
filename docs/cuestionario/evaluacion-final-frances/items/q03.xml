@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" identifier="q03" title="Transporte y alojamiento" adaptive="false" timeDependent="false">
+    <responseDeclaration identifier="RESPONSE" cardinality="multiple" baseType="directedPair">
+        <correctResponse>
+            <value>A 2</value>
+            <value>B 3</value>
+            <value>C 1</value>
+            <value>D 4</value>
+        </correctResponse>
+    </responseDeclaration>
+    <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float">
+        <defaultValue><value>0</value></defaultValue>
+    </outcomeDeclaration>
+    <itemBody>
+        <matchInteraction responseIdentifier="RESPONSE" maxAssociations="4">
+            <prompt>Empareja cada palabra francesa con su significado en español.</prompt>
+            <simpleMatchSet>
+                <simpleAssociableChoice identifier="A" matchMax="1">gare</simpleAssociableChoice>
+                <simpleAssociableChoice identifier="B" matchMax="1">billet</simpleAssociableChoice>
+                <simpleAssociableChoice identifier="C" matchMax="1">chambre</simpleAssociableChoice>
+                <simpleAssociableChoice identifier="D" matchMax="1">réservation</simpleAssociableChoice>
+            </simpleMatchSet>
+            <simpleMatchSet>
+                <simpleAssociableChoice identifier="1" matchMax="1">habitación</simpleAssociableChoice>
+                <simpleAssociableChoice identifier="2" matchMax="1">estación</simpleAssociableChoice>
+                <simpleAssociableChoice identifier="3" matchMax="1">billete</simpleAssociableChoice>
+                <simpleAssociableChoice identifier="4" matchMax="1">reserva</simpleAssociableChoice>
+            </simpleMatchSet>
+        </matchInteraction>
+    </itemBody>
+    <responseProcessing template="http://www.imsglobal.org/question/qti_v2p1/rptemplates/match_correct"/>
+</assessmentItem>

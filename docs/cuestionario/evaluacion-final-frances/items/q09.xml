@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" identifier="q09" title="Rutina diaria" adaptive="false" timeDependent="false">
+    <responseDeclaration identifier="RESPONSE" cardinality="multiple" baseType="directedPair">
+        <correctResponse>
+            <value>A 2</value>
+            <value>B 3</value>
+            <value>C 1</value>
+            <value>D 4</value>
+        </correctResponse>
+    </responseDeclaration>
+    <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float">
+        <defaultValue><value>0</value></defaultValue>
+    </outcomeDeclaration>
+    <itemBody>
+        <matchInteraction responseIdentifier="RESPONSE" maxAssociations="4">
+            <prompt>Empareja las acciones de rutina con su significado.</prompt>
+            <simpleMatchSet>
+                <simpleAssociableChoice identifier="A" matchMax="1">se lever</simpleAssociableChoice>
+                <simpleAssociableChoice identifier="B" matchMax="1">se coucher</simpleAssociableChoice>
+                <simpleAssociableChoice identifier="C" matchMax="1">faire les courses</simpleAssociableChoice>
+                <simpleAssociableChoice identifier="D" matchMax="1">prendre le petit déjeuner</simpleAssociableChoice>
+            </simpleMatchSet>
+            <simpleMatchSet>
+                <simpleAssociableChoice identifier="1" matchMax="1">hacer la compra</simpleAssociableChoice>
+                <simpleAssociableChoice identifier="2" matchMax="1">levantarse</simpleAssociableChoice>
+                <simpleAssociableChoice identifier="3" matchMax="1">acostarse</simpleAssociableChoice>
+                <simpleAssociableChoice identifier="4" matchMax="1">desayunar</simpleAssociableChoice>
+            </simpleMatchSet>
+        </matchInteraction>
+    </itemBody>
+    <responseProcessing template="http://www.imsglobal.org/question/qti_v2p1/rptemplates/match_correct"/>
+</assessmentItem>

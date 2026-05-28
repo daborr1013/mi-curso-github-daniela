@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" identifier="manifest_evaluacion_final_frances_a2">
+    <metadata>
+        <schema>IMS Content</schema>
+        <schemaversion>1.1.3</schemaversion>
+    </metadata>
+    <organizations/>
+    <resources>
+        <resource identifier="res_assessment" type="imsqti_test_xmlv2p1" href="assessment.xml">
+            <file href="assessment.xml"/>
+        </resource>
+        <resource identifier="res_q01" type="imsqti_item_xmlv2p1" href="items/q01.xml">
+            <file href="items/q01.xml"/>
+        </resource>
+        <resource identifier="res_q02" type="imsqti_item_xmlv2p1" href="items/q02.xml">
+            <file href="items/q02.xml"/>
+        </resource>
+        <resource identifier="res_q03" type="imsqti_item_xmlv2p1" href="items/q03.xml">
+            <file href="items/q03.xml"/>
+        </resource>
+        <resource identifier="res_q04" type="imsqti_item_xmlv2p1" href="items/q04.xml">
+            <file href="items/q04.xml"/>
+        </resource>
+        <resource identifier="res_q05" type="imsqti_item_xmlv2p1" href="items/q05.xml">
+            <file href="items/q05.xml"/>
+        </resource>
+        <resource identifier="res_q06" type="imsqti_item_xmlv2p1" href="items/q06.xml">
+            <file href="items/q06.xml"/>
+        </resource>
+        <resource identifier="res_q07" type="imsqti_item_xmlv2p1" href="items/q07.xml">
+            <file href="items/q07.xml"/>
+        </resource>
+        <resource identifier="res_q08" type="imsqti_item_xmlv2p1" href="items/q08.xml">
+            <file href="items/q08.xml"/>
+        </resource>
+        <resource identifier="res_q09" type="imsqti_item_xmlv2p1" href="items/q09.xml">
+            <file href="items/q09.xml"/>
+        </resource>
+        <resource identifier="res_q10" type="imsqti_item_xmlv2p1" href="items/q10.xml">
+            <file href="items/q10.xml"/>
+        </resource>
+        <resource identifier="res_q11" type="imsqti_item_xmlv2p1" href="items/q11.xml">
+            <file href="items/q11.xml"/>
+        </resource>
+        <resource identifier="res_q12" type="imsqti_item_xmlv2p1" href="items/q12.xml">
+            <file href="items/q12.xml"/>
+        </resource>
+        <resource identifier="res_q13" type="imsqti_item_xmlv2p1" href="items/q13.xml">
+            <file href="items/q13.xml"/>
+        </resource>
+        <resource identifier="res_q14" type="imsqti_item_xmlv2p1" href="items/q14.xml">
+            <file href="items/q14.xml"/>
+        </resource>
+        <resource identifier="res_q15" type="imsqti_item_xmlv2p1" href="items/q15.xml">
+            <file href="items/q15.xml"/>
+        </resource>
+        <resource identifier="res_q16" type="imsqti_item_xmlv2p1" href="items/q16.xml">
+            <file href="items/q16.xml"/>
+        </resource>
+        <resource identifier="res_q17" type="imsqti_item_xmlv2p1" href="items/q17.xml">
+            <file href="items/q17.xml"/>
+        </resource>
+        <resource identifier="res_q18" type="imsqti_item_xmlv2p1" href="items/q18.xml">
+            <file href="items/q18.xml"/>
+        </resource>
+        <resource identifier="res_q19" type="imsqti_item_xmlv2p1" href="items/q19.xml">
+            <file href="items/q19.xml"/>
+        </resource>
+        <resource identifier="res_q20" type="imsqti_item_xmlv2p1" href="items/q20.xml">
+            <file href="items/q20.xml"/>
+        </resource>
+        <resource identifier="res_q21" type="imsqti_item_xmlv2p1" href="items/q21.xml">
+            <file href="items/q21.xml"/>
+        </resource>
+        <resource identifier="res_q22" type="imsqti_item_xmlv2p1" href="items/q22.xml">
+            <file href="items/q22.xml"/>
+        </resource>
+        <resource identifier="res_q23" type="imsqti_item_xmlv2p1" href="items/q23.xml">
+            <file href="items/q23.xml"/>
+        </resource>
+        <resource identifier="res_q24" type="imsqti_item_xmlv2p1" href="items/q24.xml">
+            <file href="items/q24.xml"/>
+        </resource>
+    </resources>
+</manifest>

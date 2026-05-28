@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" identifier="evaluacion_final_frances_a2" title="Evaluación final - Français A2">
+    <testPart identifier="parte_unica" navigationMode="linear" submissionMode="individual">
+        <assessmentSection identifier="seccion_final" title="Evaluación final" visible="true">
+            <assessmentItemRef identifier="q01Ref" href="items/q01.xml" required="true"/>
+            <assessmentItemRef identifier="q02Ref" href="items/q02.xml" required="true"/>
+            <assessmentItemRef identifier="q03Ref" href="items/q03.xml" required="true"/>
+            <assessmentItemRef identifier="q04Ref" href="items/q04.xml" required="true"/>
+            <assessmentItemRef identifier="q05Ref" href="items/q05.xml" required="true"/>
+            <assessmentItemRef identifier="q06Ref" href="items/q06.xml" required="true"/>
+            <assessmentItemRef identifier="q07Ref" href="items/q07.xml" required="true"/>
+            <assessmentItemRef identifier="q08Ref" href="items/q08.xml" required="true"/>
+            <assessmentItemRef identifier="q09Ref" href="items/q09.xml" required="true"/>
+            <assessmentItemRef identifier="q10Ref" href="items/q10.xml" required="true"/>
+            <assessmentItemRef identifier="q11Ref" href="items/q11.xml" required="true"/>
+            <assessmentItemRef identifier="q12Ref" href="items/q12.xml" required="true"/>
+            <assessmentItemRef identifier="q13Ref" href="items/q13.xml" required="true"/>
+            <assessmentItemRef identifier="q14Ref" href="items/q14.xml" required="true"/>
+            <assessmentItemRef identifier="q15Ref" href="items/q15.xml" required="true"/>
+            <assessmentItemRef identifier="q16Ref" href="items/q16.xml" required="true"/>
+            <assessmentItemRef identifier="q17Ref" href="items/q17.xml" required="true"/>
+            <assessmentItemRef identifier="q18Ref" href="items/q18.xml" required="true"/>
+            <assessmentItemRef identifier="q19Ref" href="items/q19.xml" required="true"/>
+            <assessmentItemRef identifier="q20Ref" href="items/q20.xml" required="true"/>
+            <assessmentItemRef identifier="q21Ref" href="items/q21.xml" required="true"/>
+            <assessmentItemRef identifier="q22Ref" href="items/q22.xml" required="true"/>
+            <assessmentItemRef identifier="q23Ref" href="items/q23.xml" required="true"/>
+            <assessmentItemRef identifier="q24Ref" href="items/q24.xml" required="true"/>
+        </assessmentSection>
+    </testPart>
+</assessmentTest>
