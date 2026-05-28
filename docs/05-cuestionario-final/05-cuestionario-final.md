@@ -1,7 +1,7 @@
 # Évaluation finale
 
 Cette évaluation finale permet de vérifier les acquis du cours de français A2.
-Elle couvre les quatre unités du parcours : arrivée en France, vie quotidienne,
+Elle couvre les quatre unités du parcours : arriver en France, vie quotidienne,
 interactions pour résoudre des problèmes, et culture et communication.
 
 <iframe
